@@ -88,3 +88,23 @@ h1 {
 #search-button:hover {
   background-color: var(--primary-dark);
 }
+
+.meal-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.meal-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
