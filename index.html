@@ -18,10 +18,25 @@
             <input type="text" id="search-input" placeholder="Search by name (eg. 'chicken karahi')" />
             <button type="submit" id="search-button">Search</button>
         </form>
+        <div class="random-button-container">
+            <button id="random-button" class="random-button">
+                Get Random Recipe
+            </button>
+        </div>
     </div>
-
-
     <div id="results"></div>
+    <div id="recipe-popup" class="hidden">
+        <div class="popup-content">
+            <span id="close-popup">❌</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-image" alt="">
+            <p><strong>By:</strong> <span id="popup-publisher"></span></p>
+            <h3>Ingredients:</h3>
+            <ul id="popup-ingredients"></ul>
+            <h3>Cooking Instructions:</h3>
+            <p id="popup-directions"></p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
